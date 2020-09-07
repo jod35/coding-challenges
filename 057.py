@@ -5,7 +5,7 @@ count=0
 
 
 while True:
-    guess=int(input("Enter your guess: "))
+    guess=int(input("Enter your guess between 1 and 10: "))
 
     if guess <choice:
         print("Your guess is low")
