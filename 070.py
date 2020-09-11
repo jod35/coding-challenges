@@ -1,3 +1,4 @@
+
 count=0
 
 nums=[]
@@ -12,7 +13,7 @@ while count< 3:
     count +=1
 
     if count == 3:
-        answer=input("Enter 'yes' if you want to remove last item or 'no' to stop")
+        answer=input("Enter 'yes' if you want to remove last item or 'no' to stop: ")
 
         if answer == "yes":
             nums.pop()
