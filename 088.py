@@ -6,4 +6,23 @@ sales_records={
         }
 
 
-print(sales_records)
+name=input("Enter a name whose datavyou would like to view: ")
+print(sales_records[name])
+
+region =input("Enter a region out of N,E,W,S: ")
+
+print(sales_records[name][region])
+
+option=input("Enter 'y' to change item in the column or 'n' to stop: ")
+
+if option== "y":
+    value=input("Enter the column you want to change out of N,W,E,S: ")
+
+    sales_records[name][region]=value
+
+    print(f"The new records are {sales_records}")
+
+
+
+
+
