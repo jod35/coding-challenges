@@ -16,11 +16,11 @@ print(sales_records[name][region])
 option=input("Enter 'y' to change item in the column or 'n' to stop: ")
 
 if option== "y":
-    value=input("Enter the column you want to change out of N,W,E,S: ")
+    value=input("Enter the new value fornthis column: ")
 
     sales_records[name][region]=value
 
-    print(f"The new records are {sales_records}")
+    print(f"The new records are {sales_records[name]}")
 
 
 
