@@ -7,15 +7,18 @@ while count< 5:
     age=int(input("Enter an age: "))
     shoe_size=int(input("Enter a shoe size: "))
 
-    shoe_data["name"]=name
-    shoe_data["age"]=age
-    shoe_data["shoe_size"]=shoe_size
+    i
 
-    shoes.append(shoe_data)
+    shoes.append(
+            {"name":name,
+             "age":age,
+             "shoe_size":shoe_size
+             }
+            )
 
 
     count +=1
 
     if count == 5:
-        print(shoes)
         break
+print(shoes)
